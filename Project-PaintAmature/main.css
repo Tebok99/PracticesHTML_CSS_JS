@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1, hr {
+    text-align: center;
+    margin: 10px 0px;
+}
+section {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: 10px;
+    min-width: 600px;
+}
+section div {
+    display: inline-block;
+    vertical-align: top;
+}
+#myPallet {
+    background-color: darkgray;
+    padding: 5px;
+    height: 65px;
+}
+#colors {
+    width: 270px;
+}
+.palletColor {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    margin-bottom: 2px;
+}
+#inputColors {
+    width: 70px;
+}
+#inputColor {
+    width: 60px;
+    height: 25px;
+    padding: 3px;
+    margin-bottom: 2px;
+    border: 1px solid skyblue;
+    box-shadow: 0px 0px 5px skyblue;
+}
+#lineWeight {
+    padding: 4px;
+    width: 65px;
+    height: 65px;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+#lineWeightValue {
+    width: 70%;
+    height: 25px;
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#selectedColor {
+    width: 65px;
+    height: 73px;
+    border: 1px solid darkgray;
+}
+#myCanvas {
+    background: aliceblue;
+}
+#coordi {
+	width: 70px;
+	text-align: center;
+	padding: 5px;
+}

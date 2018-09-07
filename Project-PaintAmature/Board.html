@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Paint Amature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body onload="initialize(event)">
+    <h1>그림판 입니다. 그림을 그려보세요.</h1>
+    <hr>
+    <section class="left">
+        <div id="myPallet">
+            <div id="colors">
+                <button class="palletColor" value="#8B0000"></button>
+                <button class="palletColor" value="#FF0000"></button>
+                <button class="palletColor" value="#FFA500"></button>
+                <button class="palletColor" value="#FFFF00"></button>
+                <button class="palletColor" value="#9ACD32"></button>
+                <button class="palletColor" value="#800080"></button>
+                <button class="palletColor" value="#EE82EE"></button>
+                <button class="palletColor" value="#FFFFFF"></button>
+                <button class="palletColor" value="#ADFF2F"></button>
+                <button class="palletColor" value="#008000"></button>
+                <button class="palletColor" value="#00008B"></button>
+                <button class="palletColor" value="#0000FF"></button>
+                <button class="palletColor" value="#008B8B"></button>
+                <button class="palletColor" value="#000000"></button>
+                <button class="palletColor" value="#D3D3D3"></button>
+                <button class="palletColor" value="#A9A9A9"></button>
+            </div>
+            <div id="inputColors">
+                <input id="inputColor" type="color" value="#00FF00">
+                <button id="oldColor1" class="palletColor"></button>
+                <button id="oldColor2" class="palletColor"></button>
+            </div>
+        </div>
+        <div id="lineWeight">선굵기
+            <input id="lineWeightValue" type="number" min="0.1" max="10.0" step="0.1" value="1.0">
+        </div>
+        <div id="selectedColor"></div>
+        <div id="coordi"></div>
+    </section>
+    <section class="right">
+        <canvas id="myCanvas" width="600" height="500"></canvas>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
