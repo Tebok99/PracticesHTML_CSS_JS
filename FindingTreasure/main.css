@@ -1,0 +1,36 @@
+main {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-gap: 1em;
+}
+
+#mapList {
+    display: grid;
+    grid-gap: 2em;
+    min-width: 7vw;
+    max-width: 10vw;
+    min-height: 30vh;
+    max-height: 80vh;
+    overflow: auto;
+    align-content: start;
+    background-color: lightgray;
+    padding: 1em 1em;
+}
+
+#mapList input {
+    width: 100%;
+}
+
+#container {
+    position: relative;
+}
+
+#map {
+    min-width: 400px;
+    max-width: 800px;
+}
+
+#overlay img {
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
